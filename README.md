@@ -5,7 +5,7 @@ Instructions on how to install and use MCD on macOS (with mcd-python GitHub repo
 * Download MCD source files from http://www-mars.lmd.jussieu.fr (v6.1) and save it on local machine ~/MCD6.1/MCD6.1
 * Download additional scenarios and save in data folder of downloaded distribution, ~/MCD6.1/MCD6.1/data
 * Download gitHub repo mcd-python from https://github.com/aymeric-spiga/mcd-python (Test codes are in python2 and don’t work directly with python3 - not needed), saved in ~/MCD6.1/mcd-python  
-* Download Homebrew, and use brew install netcdf to install netCDF libraries (have to switch to admin for permission, su guptaad), or install using MacPorts.
+* Download Homebrew, and use brew install netcdf to install netCDF libraries (have to switch to admin for permission), or install using MacPorts.
 * In /mcd-python/compile_fmcd.sh, define paths of netcdf and MCD source files - 
     - NETCDF=/opt/local/        
     - wheremcd=~/MCD6.1/MCD6.1/
